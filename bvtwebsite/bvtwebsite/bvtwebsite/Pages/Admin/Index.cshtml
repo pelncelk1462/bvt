@@ -1,0 +1,19 @@
+﻿@page
+@model bvtwebsite.Pages.Admin.IndexModel
+@attribute [Microsoft.AspNetCore.Authorization.Authorize(Roles = "Admin")]
+
+@{
+    ViewData["Title"] = "Admin Panel";
+}
+
+<div class="admin-card">
+    <div class="admin-page-header">
+        <h1>Admin Panel</h1>
+    </div>
+
+    <p>Yönetim ekranına hoş geldiniz. Buradan duyuruları ve ileride diğer içerikleri yöneteceksiniz.</p>
+
+    <div style="margin-top:20px;">
+        <a class="admin-btn" asp-page="/Admin/Announcements/Index">Duyuruları Yönet</a>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+﻿@page "{id:int}"
+@model bvtwebsite.Pages.Admin.Announcements.DeleteModel
+@attribute [Microsoft.AspNetCore.Authorization.Authorize(Roles = "Admin")]
+
+@{
+    ViewData["Title"] = "Duyuru Sil";
+}
+
+<div class="admin-card">
+    <div class="admin-page-header">
+        <h1>Duyuruyu Sil</h1>
+        <a asp-page="Index" class="admin-btn-secondary">Geri Dön</a>
+    </div>
+
+    <p>Bu duyuruyu silmek istediğine emin misin?</p>
+
+    <div style="margin: 20px 0; padding: 16px; border-radius: 12px; background: #f8fafc; border: 1px solid #e5e7eb;">
+        <strong>@Model.Announcement.Title</strong>
+    </div>
+
+    <form method="post">
+        <input type="hidden" asp-for="Announcement.Id" />
+        <button type="submit" class="admin-btn">Sil</button>
+    </form>
+</div>

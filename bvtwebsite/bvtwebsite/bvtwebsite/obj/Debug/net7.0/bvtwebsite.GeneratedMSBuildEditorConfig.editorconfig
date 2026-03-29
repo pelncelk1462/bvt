@@ -9,41 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = bvtwebsite
 build_property.RootNamespace = bvtwebsite
-build_property.ProjectDir = C:\bvt\bvtwebsite\bvtwebsite\bvtwebsite\
+build_property.ProjectDir = C:\Users\Tolga Sune\Documents\bvt\bvtwebsite\bvtwebsite\bvtwebsite\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\bvt\bvtwebsite\bvtwebsite\bvtwebsite
+build_property.MSBuildProjectDirectory = C:\Users\Tolga Sune\Documents\bvt\bvtwebsite\bvtwebsite\bvtwebsite
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 7.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/Error.cshtml]
+[C:/Users/Tolga Sune/Documents/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/Admin/Announcements/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQW5ub3VuY2VtZW50c1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolga Sune/Documents/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/Admin/Announcements/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQW5ub3VuY2VtZW50c1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolga Sune/Documents/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/Admin/Announcements/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQW5ub3VuY2VtZW50c1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolga Sune/Documents/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/Admin/Announcements/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQW5ub3VuY2VtZW50c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolga Sune/Documents/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolga Sune/Documents/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/Admin/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolga Sune/Documents/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/Announcements.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQW5ub3VuY2VtZW50cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolga Sune/Documents/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/Index.cshtml]
+[C:/Users/Tolga Sune/Documents/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/Privacy.cshtml]
+[C:/Users/Tolga Sune/Documents/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Tolga Sune/Documents/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolga Sune/Documents/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tolga Sune/Documents/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/_ViewImports.cshtml]
+[C:/Users/Tolga Sune/Documents/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/_ViewStart.cshtml]
+[C:/Users/Tolga Sune/Documents/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Views/Home/Index.cshtml]
+[C:/Users/Tolga Sune/Documents/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/Shared/_Layout.cshtml]
+[C:/Users/Tolga Sune/Documents/bvt/bvtwebsite/bvtwebsite/bvtwebsite/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-i0q2siefil

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\bvtwebsite.csproj": {}
+    "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\bvtwebsite.csproj": {}
   },
   "projects": {
-    "C:\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\bvtwebsite.csproj": {
+    "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\bvtwebsite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\bvtwebsite.csproj",
+        "projectUniqueName": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\bvtwebsite.csproj",
         "projectName": "bvtwebsite",
-        "projectPath": "C:\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\bvtwebsite.csproj",
-        "packagesPath": "C:\\Users\\MONSTER\\.nuget\\packages\\",
-        "outputPath": "C:\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\obj\\",
+        "projectPath": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\bvtwebsite.csproj",
+        "packagesPath": "C:\\Users\\Tolga Sune\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\MONSTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tolga Sune\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,11 +39,41 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.20, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

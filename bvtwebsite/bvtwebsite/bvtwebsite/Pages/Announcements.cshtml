@@ -1,0 +1,26 @@
+﻿@page
+@model bvtwebsite.Pages.AnnouncementsModel
+
+@{
+    ViewData["Title"] = "Duyurular";
+}
+
+<section style="padding:40px;">
+    <h1>Duyurular</h1>
+
+    @if (!Model.Announcements.Any())
+    {
+        <p>Henüz yayınlanmış duyuru yok.</p>
+    }
+    else
+    {
+        @foreach (var item in Model.Announcements)
+        {
+            <div style="margin-bottom:25px; padding:20px; border:1px solid #ccc; border-radius:12px;">
+                <h3>@item.Title</h3>
+                <p>@item.Content</p>
+                <small>@item.CreatedAt.ToString("dd.MM.yyyy HH:mm")</small>
+            </div>
+        }
+    }
+</section>

@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F96F91AA-4314-41D5-9A04-369FDCA170D8}|bvtwebsite\\bvtwebsite.csproj|c:\\users\\tolga sune\\documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\pages\\admin\\announcements\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F96F91AA-4314-41D5-9A04-369FDCA170D8}|bvtwebsite\\bvtwebsite.csproj|solutionrelative:bvtwebsite\\pages\\admin\\announcements\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96F91AA-4314-41D5-9A04-369FDCA170D8}|bvtwebsite\\bvtwebsite.csproj|c:\\users\\tolga sune\\documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\pages\\admin\\announcements\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F96F91AA-4314-41D5-9A04-369FDCA170D8}|bvtwebsite\\bvtwebsite.csproj|solutionrelative:bvtwebsite\\pages\\admin\\announcements\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96F91AA-4314-41D5-9A04-369FDCA170D8}|bvtwebsite\\bvtwebsite.csproj|c:\\users\\tolga sune\\documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\pages\\admin\\announcements\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F96F91AA-4314-41D5-9A04-369FDCA170D8}|bvtwebsite\\bvtwebsite.csproj|solutionrelative:bvtwebsite\\pages\\admin\\announcements\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96F91AA-4314-41D5-9A04-369FDCA170D8}|bvtwebsite\\bvtwebsite.csproj|c:\\users\\tolga sune\\documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\pages\\admin\\announcements\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F96F91AA-4314-41D5-9A04-369FDCA170D8}|bvtwebsite\\bvtwebsite.csproj|solutionrelative:bvtwebsite\\pages\\admin\\announcements\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96F91AA-4314-41D5-9A04-369FDCA170D8}|bvtwebsite\\bvtwebsite.csproj|c:\\users\\tolga sune\\documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\pages\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F96F91AA-4314-41D5-9A04-369FDCA170D8}|bvtwebsite\\bvtwebsite.csproj|solutionrelative:bvtwebsite\\pages\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96F91AA-4314-41D5-9A04-369FDCA170D8}|bvtwebsite\\bvtwebsite.csproj|c:\\users\\tolga sune\\documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\pages\\admin\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F96F91AA-4314-41D5-9A04-369FDCA170D8}|bvtwebsite\\bvtwebsite.csproj|solutionrelative:bvtwebsite\\pages\\admin\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96F91AA-4314-41D5-9A04-369FDCA170D8}|bvtwebsite\\bvtwebsite.csproj|c:\\users\\tolga sune\\documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\wwwroot\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F96F91AA-4314-41D5-9A04-369FDCA170D8}|bvtwebsite\\bvtwebsite.csproj|solutionrelative:bvtwebsite\\wwwroot\\css\\admin.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96F91AA-4314-41D5-9A04-369FDCA170D8}|bvtwebsite\\bvtwebsite.csproj|c:\\users\\tolga sune\\documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\pages\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F96F91AA-4314-41D5-9A04-369FDCA170D8}|bvtwebsite\\bvtwebsite.csproj|solutionrelative:bvtwebsite\\pages\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96F91AA-4314-41D5-9A04-369FDCA170D8}|bvtwebsite\\bvtwebsite.csproj|c:\\users\\tolga sune\\documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F96F91AA-4314-41D5-9A04-369FDCA170D8}|bvtwebsite\\bvtwebsite.csproj|solutionrelative:bvtwebsite\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96F91AA-4314-41D5-9A04-369FDCA170D8}|bvtwebsite\\bvtwebsite.csproj|c:\\users\\tolga sune\\documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\pages\\announcements.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F96F91AA-4314-41D5-9A04-369FDCA170D8}|bvtwebsite\\bvtwebsite.csproj|solutionrelative:bvtwebsite\\pages\\announcements.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F96F91AA-4314-41D5-9A04-369FDCA170D8}|bvtwebsite\\bvtwebsite.csproj|c:\\users\\tolga sune\\documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\pages\\announcements.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F96F91AA-4314-41D5-9A04-369FDCA170D8}|bvtwebsite\\bvtwebsite.csproj|solutionrelative:bvtwebsite\\pages\\announcements.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\Pages\\Admin\\Announcements\\Delete.cshtml",
+              "RelativeDocumentMoniker": "bvtwebsite\\Pages\\Admin\\Announcements\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\Pages\\Admin\\Announcements\\Delete.cshtml",
+              "RelativeToolTip": "bvtwebsite\\Pages\\Admin\\Announcements\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T15:31:13.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\Pages\\Admin\\Announcements\\Edit.cshtml",
+              "RelativeDocumentMoniker": "bvtwebsite\\Pages\\Admin\\Announcements\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\Pages\\Admin\\Announcements\\Edit.cshtml",
+              "RelativeToolTip": "bvtwebsite\\Pages\\Admin\\Announcements\\Edit.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T15:30:59.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\Pages\\Admin\\Announcements\\Create.cshtml",
+              "RelativeDocumentMoniker": "bvtwebsite\\Pages\\Admin\\Announcements\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\Pages\\Admin\\Announcements\\Create.cshtml",
+              "RelativeToolTip": "bvtwebsite\\Pages\\Admin\\Announcements\\Create.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T15:30:47.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\Pages\\Admin\\Announcements\\Index.cshtml",
+              "RelativeDocumentMoniker": "bvtwebsite\\Pages\\Admin\\Announcements\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\Pages\\Admin\\Announcements\\Index.cshtml",
+              "RelativeToolTip": "bvtwebsite\\Pages\\Admin\\Announcements\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwDEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T15:30:33.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\Pages\\Admin\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "bvtwebsite\\Pages\\Admin\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\Pages\\Admin\\_ViewStart.cshtml",
+              "RelativeToolTip": "bvtwebsite\\Pages\\Admin\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T15:29:25.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "admin.css",
+              "DocumentMoniker": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\wwwroot\\css\\admin.css",
+              "RelativeDocumentMoniker": "bvtwebsite\\wwwroot\\css\\admin.css",
+              "ToolTip": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\wwwroot\\css\\admin.css",
+              "RelativeToolTip": "bvtwebsite\\wwwroot\\css\\admin.css",
+              "ViewState": "AgIAAMoAAAAAAAAAAAAUwPAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-03-31T15:28:53.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\Pages\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "bvtwebsite\\Pages\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\Pages\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "bvtwebsite\\Pages\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T15:28:12.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "bvtwebsite\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "bvtwebsite\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T15:02:30.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Announcements.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\Pages\\Announcements.cshtml.cs",
+              "RelativeDocumentMoniker": "bvtwebsite\\Pages\\Announcements.cshtml.cs",
+              "ToolTip": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\Pages\\Announcements.cshtml.cs",
+              "RelativeToolTip": "bvtwebsite\\Pages\\Announcements.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-31T15:01:57.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\Pages\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "bvtwebsite\\Pages\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\Pages\\Admin\\Index.cshtml",
+              "RelativeToolTip": "bvtwebsite\\Pages\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T14:59:41.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Announcements.cshtml",
+              "DocumentMoniker": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\Pages\\Announcements.cshtml",
+              "RelativeDocumentMoniker": "bvtwebsite\\Pages\\Announcements.cshtml",
+              "ToolTip": "C:\\Users\\Tolga Sune\\Documents\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\Pages\\Announcements.cshtml",
+              "RelativeToolTip": "bvtwebsite\\Pages\\Announcements.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-31T15:00:49.367Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Admin Panel</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/admin.css" />
+</head>
+<body>
+    <div class="admin-shell">
+        <aside class="admin-sidebar">
+            <div class="admin-brand">BANÜ Admin</div>
+
+            <nav class="admin-nav">
+                <a asp-page="/Admin/Index">Panel</a>
+                <a asp-page="/Admin/Announcements/Index">Duyurular</a>
+            </nav>
+        </aside>
+
+        <div class="admin-main">
+            <header class="admin-topbar">
+                <div>
+                    <strong>@ViewData["Title"]</strong>
+                </div>
+
+                <div class="admin-top-actions">
+                    <a href="/" class="admin-top-link">Siteye Dön</a>
+
+                    @if (SignInManager.IsSignedIn(User))
+                    {
+                        <form method="post"
+                              asp-area="Identity"
+                              asp-page="/Account/Logout"
+                              asp-route-returnUrl="/"
+                              style="display:inline;">
+                            <button type="submit" class="admin-logout-btn">Çıkış</button>
+                        </form>
+                    }
+                </div>
+            </header>
+
+            <main class="admin-content">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

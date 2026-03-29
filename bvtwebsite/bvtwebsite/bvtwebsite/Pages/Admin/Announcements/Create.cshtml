@@ -1,0 +1,41 @@
+﻿@page
+@model bvtwebsite.Pages.Admin.Announcements.CreateModel
+@attribute [Microsoft.AspNetCore.Authorization.Authorize(Roles = "Admin")]
+
+@{
+    ViewData["Title"] = "Yeni Duyuru";
+}
+
+<div class="admin-card">
+    <div class="admin-page-header">
+        <h1>Yeni Duyuru Ekle</h1>
+        <a asp-page="Index" class="admin-btn-secondary">Listeye Dön</a>
+    </div>
+
+    <form method="post" class="admin-form">
+        <div class="admin-form-group">
+            <label asp-for="Announcement.Title"></label>
+            <input asp-for="Announcement.Title" class="admin-input" />
+            <span asp-validation-for="Announcement.Title" class="admin-validation"></span>
+        </div>
+
+        <div class="admin-form-group">
+            <label asp-for="Announcement.Content"></label>
+            <textarea asp-for="Announcement.Content" rows="8" class="admin-textarea"></textarea>
+            <span asp-validation-for="Announcement.Content" class="admin-validation"></span>
+        </div>
+
+        <div class="admin-checkbox-row">
+            <input asp-for="Announcement.IsPublished" />
+            <label asp-for="Announcement.IsPublished"></label>
+        </div>
+
+        <div>
+            <button type="submit" class="admin-btn">Kaydet</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
