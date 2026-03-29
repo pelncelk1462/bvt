@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Cc+mIuJEib7mds7Izzc/huMBXu0FApXJnQHViO9zhjY=",
+  "Hash": "AfjJAFPjF4zKk2vgdRoh55lyHXh98Ktmtv5IVT2zYa4=",
   "Source": "bvtwebsite",
   "BasePath": "_content/bvtwebsite",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\wwwroot\\Images\\logo.png",
+      "SourceId": "bvtwebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\wwwroot\\",
+      "BasePath": "_content/bvtwebsite",
+      "RelativePath": "Images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\logo.png"
     },
     {
       "Identity": "C:\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\wwwroot\\js\\site.js",

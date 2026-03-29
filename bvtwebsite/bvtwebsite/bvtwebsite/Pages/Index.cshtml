@@ -1,10 +1,44 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+    ViewData["Title"] = "Ana Sayfa";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<section class="hero">
+    <div class="hero-bg-shape shape-1"></div>
+    <div class="hero-bg-shape shape-2"></div>
+
+    <div class="hero-content">
+        <span class="hero-badge">BANÜ VOLEYBOL TOPLULUĞU</span>
+        <h1 class="hero-title">Enerjiyi, Takım Ruhunu ve Üniversite Hayatını Bir Araya Getiriyoruz</h1>
+        <p class="hero-text">
+            BANÜ Voleybol Topluluğu ile etkinlikleri keşfet, takım ruhunu hisset
+            ve sosyal üniversite hayatının bir parçası ol.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="/Events" class="btn-main">Etkinliklerimiz</a>
+            
+        </div>
+    </div>
+</section>
+
+<section class="info-section">
+    <div class="info-card">
+        <div class="card-icon">🏐</div>
+        <h3>Etkinlikler</h3>
+        <p>Turnuvalar, antrenmanlar, özel organizasyonlar ve topluluk buluşmaları.</p>
+    </div>
+
+    <div class="info-card">
+        <div class="card-icon">📣</div>
+        <h3>Duyurular</h3>
+        <p>Topluluğumuzla ilgili güncel haberler, toplantılar ve planlamalar burada.</p>
+    </div>
+
+    <div class="info-card">
+        <div class="card-icon">🤝</div>
+        <h3>Katılım</h3>
+        <p>Aramıza katılarak hem spor yapabilir hem de güçlü bir ekip ruhu yaşayabilirsin.</p>
+    </div>
+</section>
