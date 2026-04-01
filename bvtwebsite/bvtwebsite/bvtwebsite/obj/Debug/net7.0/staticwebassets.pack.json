@@ -5,6 +5,13 @@
       "PackagePath": "staticwebassets\\bvtwebsite.bundle.scp.css"
     },
     {
+<<<<<<< HEAD
+=======
+      "Id": "C:\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\wwwroot\\Images\\ekipfoto.jpeg",
+      "PackagePath": "staticwebassets\\Images\\ekipfoto.jpeg"
+    },
+    {
+>>>>>>> 02bd2c78aa7167764dc3b172974fa7fa5c812590
       "Id": "C:\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\wwwroot\\Images\\logo.png",
       "PackagePath": "staticwebassets\\Images\\logo.png"
     },

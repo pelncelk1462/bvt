@@ -28,6 +28,7 @@ C:\bvt\bvtwebsite\bvtwebsite\bvtwebsite\obj\Debug\net7.0\refint\bvtwebsite.dll
 C:\bvt\bvtwebsite\bvtwebsite\bvtwebsite\obj\Debug\net7.0\bvtwebsite.pdb
 C:\bvt\bvtwebsite\bvtwebsite\bvtwebsite\obj\Debug\net7.0\bvtwebsite.genruntimeconfig.cache
 C:\bvt\bvtwebsite\bvtwebsite\bvtwebsite\obj\Debug\net7.0\ref\bvtwebsite.dll
+<<<<<<< HEAD
 C:\Users\Tolga Sune\Documents\bvt\bvtwebsite\bvtwebsite\bvtwebsite\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\Tolga Sune\Documents\bvt\bvtwebsite\bvtwebsite\bvtwebsite\bin\Debug\net7.0\appsettings.json
 C:\Users\Tolga Sune\Documents\bvt\bvtwebsite\bvtwebsite\bvtwebsite\bin\Debug\net7.0\bvtwebsite.staticwebassets.runtime.json
@@ -110,3 +111,6 @@ C:\Users\Tolga Sune\Documents\bvt\bvtwebsite\bvtwebsite\bvtwebsite\bin\Debug\net
 C:\Users\Tolga Sune\Documents\bvt\bvtwebsite\bvtwebsite\bvtwebsite\obj\Debug\net7.0\bvtwebsite.csproj.AssemblyReference.cache
 C:\Users\Tolga Sune\Documents\bvt\bvtwebsite\bvtwebsite\bvtwebsite\obj\Debug\net7.0\bvtwebsite.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Tolga Sune\Documents\bvt\bvtwebsite\bvtwebsite\bvtwebsite\obj\Debug\net7.0\bvtwebsite.csproj.Up2Date
+=======
+C:\bvt\bvtwebsite\bvtwebsite\bvtwebsite\obj\Debug\net7.0\scopedcss\Pages\About.cshtml.rz.scp.css
+>>>>>>> 02bd2c78aa7167764dc3b172974fa7fa5c812590
