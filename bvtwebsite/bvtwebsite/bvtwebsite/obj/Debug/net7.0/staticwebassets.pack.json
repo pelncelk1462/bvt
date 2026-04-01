@@ -16,6 +16,10 @@
       "PackagePath": "staticwebassets\\Images\\logo.png"
     },
     {
+      "Id": "C:\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\wwwroot\\css\\about.css",
+      "PackagePath": "staticwebassets\\css\\about.css"
+    },
+    {
       "Id": "C:\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

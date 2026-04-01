@@ -3,7 +3,7 @@
 =======
 {
   "Version": 1,
-  "Hash": "KkFdIzh3HMJ2fKwsKRBNHdO8ptD+9SyQyg1HTj000DI=",
+  "Hash": "O+kEadeg/1o5d3fpZunn5ee1bJfp77AQQe+MZp+r/p8=",
   "Source": "bvtwebsite",
   "BasePath": "_content/bvtwebsite",
   "Mode": "Default",
@@ -52,6 +52,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\bvtwebsite.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\wwwroot\\css\\about.css",
+      "SourceId": "bvtwebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\wwwroot\\",
+      "BasePath": "_content/bvtwebsite",
+      "RelativePath": "css/about.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\about.css"
     },
     {
       "Identity": "C:\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\wwwroot\\css\\site.css",
