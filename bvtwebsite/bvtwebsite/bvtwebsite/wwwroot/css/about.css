@@ -1,0 +1,227 @@
+﻿/* Sayfanın ana gövdesinin kaymasını engellemek için */
+main {
+    overflow: hidden;
+}
+
+/* Resmin içinde duracağı kutu */
+.image-container {
+    display: flex;
+    justify-content: center; /* Yatayda tam orta */
+    align-items: center; /* Dikeyde tam orta */
+    width: 100%;
+    /* Navbar yüksekliğini çıkararak ekranın kalanını kapla */
+    height: calc(100vh - 100px);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Resmin kendisi */
+.centered-image {
+    max-width: 100%; /* Genişlik ekranı aşamaz */
+    max-height: 100%; /* Yükseklik ekranı aşamaz (Kaydırmayı bu engeller) */
+    width: auto; /* Oranı bozma */
+    height: auto; /* Oranı bozma */
+    object-fit: contain; /* Yüzlerin kesilmesini engeller, resmi kutuya sığdırır */
+    border-radius: 8px; /* Köşeleri hafif yumuşatır */
+}
+:root {
+    --primary-color: #f39c12; /* Enerjik Sarı/Turuncu */
+    --secondary-color: #2980b9; /* Bandırma Mavisi */
+    --dark-color: #2c3e50;
+    --light-bg: #f9f9f9;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* KISIM 1: HERO & PARALLAX */
+.about-hero {
+    position: relative;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+
+.parallax-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Paralaksın sırrı */
+    z-index: -1;
+    filter: brightness(0.7); /* Yazının okunması için karartma */
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.highlight-hero {
+    color: var(--primary-color);
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+/* KISIM 2: STATS SECTON */
+.stats-section {
+    padding: 60px 0;
+    background-color: var(--dark-color);
+    color: white;
+}
+
+.stats-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.stat-item {
+    text-align: center;
+    flex: 1;
+    min-width: 200px;
+}
+
+.stat-icon {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.stat-number {
+    font-size: 3rem;
+    font-weight: 800;
+    display: block;
+}
+
+.stat-label {
+    font-size: 1.1rem;
+    color: #bdc3c7;
+}
+
+/* KISIM 3: STORY SECTION & SENİN FOTOĞRAFIN */
+.story-section {
+    padding: 80px 0;
+    background-color: var(--light-bg);
+}
+
+.story-grid {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.story-text {
+    flex: 1.2;
+    min-width: 400px;
+}
+
+    .story-text h2 {
+        font-size: 2.8rem;
+        margin-bottom: 20px;
+        color: var(--dark-color);
+    }
+
+.highlight {
+    color: var(--secondary-color);
+}
+
+.value-cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.value-card {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+    .value-card i {
+        font-size: 2rem;
+        color: var(--secondary-color);
+        margin-bottom: 10px;
+        display: block;
+    }
+
+/* FOTOĞRAF ALANI - Senin İstediğin Düzenleme */
+.story-image-area {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+}
+
+.image-modern-frame {
+    position: relative;
+    width: 100%;
+    max-height: 500px; /* Kaydırmayı engellemek için sınır */
+    overflow: hidden;
+    border-radius: 30px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+    .image-modern-frame:hover {
+        transform: translateY(-10px);
+    }
+
+.modern-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Yüzlerin kesilmesini engeller, resmi çerçeveye sığdırır */
+    transition: transform 0.5s ease;
+}
+
+.image-modern-frame:hover .modern-img {
+    transform: scale(1.05);
+}
+
+.image-overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: var(--dark-color);
+    font-weight: bold;
+}
+
+/* MOBİL AYARI */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .story-grid {
+        flex-direction: column-reverse;
+    }
+    /* Mobilde fotoğraf üste gelsin */
+}

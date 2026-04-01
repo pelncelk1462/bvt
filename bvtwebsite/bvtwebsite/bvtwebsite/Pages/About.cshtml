@@ -2,24 +2,81 @@
 @model AboutModel
 @{
     ViewData["Title"] = "Hakkımızda";
+    
+}
+@section Styles {
+    <link rel="stylesheet" href="~/css/about.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
 }
 
+@* KISIM 1: YENİ KAHRAMAN BÖLÜMÜ (HERO) *@
 <section class="about-hero">
-    <div class="about-hero-card">
-        <img src="~/images/ekipfoto.jpeg" alt="BANÜ Voleybol Topluluğu" class="about-hero-image" />
+    <div class="parallax-bg" style="background-image: url('/Images/ekipfoto.jpeg');"></div>
+    <div class="container hero-content">
+        <h1 class="hero-title">File Önünde Başlayan <span class="highlight-hero">Dostluk</span></h1>
+        <p class="hero-subtitle">BANÜ Voleybol Topluluğu: Kampüsün En Enerjik Topluluğu</p>
     </div>
 </section>
 
-<section class="about-content">
-    <div class="about-content-box">
-        <h1>Hakkımızda</h1>
-        <p>
-            BANÜ Voleybol Topluluğu, voleybola ilgi duyan öğrencileri bir araya getiren,
-            takım ruhunu, dayanışmayı ve spor kültürünü geliştirmeyi amaçlayan bir topluluktur.
-        </p>
-        <p>
-            Topluluğumuz; antrenmanlar, etkinlikler, turnuvalar ve sosyal organizasyonlarla
-            üyelerine hem sportif hem sosyal açıdan aktif bir ortam sunar.
-        </p>
+@* KISIM 2: RAKAMLARLA BİZ (CANLI SAYILAR) *@
+<section class="stats-section">
+    <div class="container stats-grid">
+        <div class="stat-item">
+            <i class="fas fa-calendar-check stat-icon"></i>
+            <span class="stat-number" data-target="2024">2024</span>
+            <span class="stat-label">Kuruluş Yılı</span>
+        </div>
+        <div class="stat-item">
+            <i class="fas fa-users stat-icon"></i>
+            <span class="stat-number" data-target="150">0</span>
+            <span class="stat-label">Aktif Üye</span>
+        </div>
+        <div class="stat-item">
+            <i class="fas fa-dumbbell stat-icon"></i>
+            <span class="stat-number" data-target="4">0</span>
+            <span class="stat-label">Haftalık Antrenman</span>
+        </div>
+        <div class="stat-item">
+            <i class="fas fa-trophy stat-icon"></i>
+            <span class="stat-number" data-target="3">0</span>
+            <span class="stat-label">Kupa/Madalya</span>
+        </div>
+    </div>
+</section>
+
+@* KISIM 3: ANA HİKAYE VE SENİN FOTOĞRAFIN *@
+<section class="story-section">
+    <div class="container">
+        <div class="story-grid">
+            <div class="story-text">
+                <h2>Vizyonumuz <span class="highlight">& Değerlerimiz</span></h2>
+                <p>
+                    2024 yılında Bandırma Onyedi Eylül Üniversitesi çatısı altında, sadece voleybol oynamak değil, sporun birleştirici gücüyle güçlü bir topluluk kültürü oluşturmak için yola çıktık.
+                </p>
+                <div class="value-cards">
+                    <div class="value-card">
+                        <i class="fas fa-handshake"></i>
+                        <span>Takım Ruhu</span>
+                    </div>
+                    <div class="value-card">
+                        <i class="fas fa-running"></i>
+                        <span>Gelişim</span>
+                    </div>
+                    <div class="value-card">
+                        <i class="fas fa-smile"></i>
+                        <span>Eğlence</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="story-image-area">
+                <div class="image-modern-frame">
+                    
+                    <div class="image-overlay">
+                        <span>#BANUVoleybol2024</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
