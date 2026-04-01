@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AfjJAFPjF4zKk2vgdRoh55lyHXh98Ktmtv5IVT2zYa4=",
+  "Hash": "KkFdIzh3HMJ2fKwsKRBNHdO8ptD+9SyQyg1HTj000DI=",
   "Source": "bvtwebsite",
   "BasePath": "_content/bvtwebsite",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\wwwroot\\Images\\ekipfoto.jpeg",
+      "SourceId": "bvtwebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\wwwroot\\",
+      "BasePath": "_content/bvtwebsite",
+      "RelativePath": "Images/ekipfoto.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\ekipfoto.jpeg"
     },
     {
       "Identity": "C:\\bvt\\bvtwebsite\\bvtwebsite\\bvtwebsite\\wwwroot\\Images\\logo.png",

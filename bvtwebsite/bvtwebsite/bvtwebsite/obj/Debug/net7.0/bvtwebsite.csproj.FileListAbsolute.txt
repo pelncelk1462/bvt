@@ -28,3 +28,4 @@ C:\bvt\bvtwebsite\bvtwebsite\bvtwebsite\obj\Debug\net7.0\refint\bvtwebsite.dll
 C:\bvt\bvtwebsite\bvtwebsite\bvtwebsite\obj\Debug\net7.0\bvtwebsite.pdb
 C:\bvt\bvtwebsite\bvtwebsite\bvtwebsite\obj\Debug\net7.0\bvtwebsite.genruntimeconfig.cache
 C:\bvt\bvtwebsite\bvtwebsite\bvtwebsite\obj\Debug\net7.0\ref\bvtwebsite.dll
+C:\bvt\bvtwebsite\bvtwebsite\bvtwebsite\obj\Debug\net7.0\scopedcss\Pages\About.cshtml.rz.scp.css
