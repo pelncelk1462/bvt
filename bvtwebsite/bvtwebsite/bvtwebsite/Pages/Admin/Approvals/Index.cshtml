@@ -1,0 +1,48 @@
+﻿@page
+@model bvtwebsite.Pages.Admin.Approvals.IndexModel
+@attribute [Microsoft.AspNetCore.Authorization.Authorize(Roles = "Admin")]
+
+@{
+    ViewData["Title"] = "Onay Bekleyen İçerikler";
+}
+
+<div class="admin-card">
+    <div class="admin-page-header">
+        <h1>Onay Bekleyen Etkinlikler</h1>
+    </div>
+
+    @if (!Model.PendingEvents.Any())
+    {
+        <div class="admin-empty">
+            Onay bekleyen içerik yok.
+        </div>
+    }
+    else
+    {
+        <table class="admin-table">
+            <thead>
+                <tr>
+                    <th>Başlık</th>
+                    <th>Tarih</th>
+                    <th>Oluşturan</th>
+                    <th>İşlem</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.PendingEvents)
+                {
+                    <tr>
+                        <td>@item.Title</td>
+                        <td>@item.StartDate.ToString("dd.MM.yyyy")</td>
+                        <td>@item.CreatedByUserId</td>
+                        <td>
+                            <a asp-page="Detail" asp-route-id="@item.Id" class="admin-btn">
+                                İncele
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

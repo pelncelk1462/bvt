@@ -1,0 +1,133 @@
+﻿@page "{id:int}"
+@model bvtwebsite.Pages.Admin.Events.EditModel
+@attribute [Microsoft.AspNetCore.Authorization.Authorize(Roles = "Admin,Editor")]
+
+@{
+    ViewData["Title"] = "Etkinlik Düzenle";
+}
+
+<div class="admin-card">
+    <div class="admin-page-header">
+        <h1>Etkinlik Düzenle</h1>
+        <a asp-page="Index" class="admin-btn-secondary">Listeye Dön</a>
+    </div>
+
+    <form method="post" enctype="multipart/form-data" class="admin-form">
+        <input type="hidden" asp-for="Event.Id" />
+
+        <div class="admin-form-group">
+            <label asp-for="Event.Title"></label>
+            <input asp-for="Event.Title" class="admin-input" />
+            <span asp-validation-for="Event.Title" class="admin-validation"></span>
+        </div>
+
+        <div class="admin-form-group">
+            <label asp-for="Event.Summary"></label>
+            <textarea asp-for="Event.Summary" rows="3" class="admin-textarea"></textarea>
+            <span asp-validation-for="Event.Summary" class="admin-validation"></span>
+        </div>
+
+        <div class="admin-form-group">
+            <label asp-for="Event.Description"></label>
+            <textarea asp-for="Event.Description" rows="8" class="admin-textarea"></textarea>
+            <span asp-validation-for="Event.Description" class="admin-validation"></span>
+        </div>
+
+        <div class="admin-form-group">
+            <label asp-for="Event.StartDate"></label>
+            <input asp-for="Event.StartDate" type="datetime-local" class="admin-input" />
+            <span asp-validation-for="Event.StartDate" class="admin-validation"></span>
+        </div>
+
+        <div class="admin-form-group">
+            <label asp-for="Event.EndDate"></label>
+            <input asp-for="Event.EndDate" type="datetime-local" class="admin-input" />
+            <span asp-validation-for="Event.EndDate" class="admin-validation"></span>
+        </div>
+
+        <div class="admin-form-group">
+            <label asp-for="Event.LocationName"></label>
+            <input asp-for="Event.LocationName" class="admin-input" />
+            <span asp-validation-for="Event.LocationName" class="admin-validation"></span>
+        </div>
+
+        <div class="admin-form-group">
+            <label asp-for="Event.Address"></label>
+            <input asp-for="Event.Address" class="admin-input" />
+            <span asp-validation-for="Event.Address" class="admin-validation"></span>
+        </div>
+
+        <div class="admin-form-group">
+            <label asp-for="Event.MapUrl"></label>
+            <input asp-for="Event.MapUrl" class="admin-input" />
+            <span asp-validation-for="Event.MapUrl" class="admin-validation"></span>
+        </div>
+
+        <div class="admin-form-group">
+            <label asp-for="Event.RegistrationUrl"></label>
+            <input asp-for="Event.RegistrationUrl" class="admin-input" />
+            <span asp-validation-for="Event.RegistrationUrl" class="admin-validation"></span>
+        </div>
+
+        <div class="admin-form-group">
+            <label asp-for="Event.Capacity"></label>
+            <input asp-for="Event.Capacity" class="admin-input" />
+            <span asp-validation-for="Event.Capacity" class="admin-validation"></span>
+        </div>
+
+        <div class="admin-form-group">
+            <label>Yeni Etkinlik Görseli</label>
+            <input type="file" asp-for="ImageFile" class="admin-input" accept="image/*" />
+        </div>
+
+        @if (!string.IsNullOrWhiteSpace(Model.Event.ImagePath))
+        {
+            <div class="admin-form-group">
+                <label>Mevcut Görsel</label>
+                <img src="@Model.Event.ImagePath" alt="@Model.Event.Title" style="max-width:220px; border-radius:12px;" />
+            </div>
+        }
+
+        <div class="admin-checkbox-row">
+            <input asp-for="Event.IsFeatured" />
+            <label asp-for="Event.IsFeatured"></label>
+        </div>
+
+        <div class="admin-checkbox-row">
+            <input asp-for="Event.ShowOnHomePage" />
+            <label asp-for="Event.ShowOnHomePage"></label>
+        </div>
+
+        <div class="admin-form-group">
+            <label asp-for="Event.SeoTitle"></label>
+            <input asp-for="Event.SeoTitle" class="admin-input" />
+            <span asp-validation-for="Event.SeoTitle" class="admin-validation"></span>
+        </div>
+
+        <div class="admin-form-group">
+            <label asp-for="Event.SeoDescription"></label>
+            <textarea asp-for="Event.SeoDescription" rows="3" class="admin-textarea"></textarea>
+            <span asp-validation-for="Event.SeoDescription" class="admin-validation"></span>
+        </div>
+
+        <div class="admin-form-group">
+            <label asp-for="Event.AdminNote"></label>
+            <textarea asp-for="Event.AdminNote" rows="3" class="admin-textarea"></textarea>
+            <span asp-validation-for="Event.AdminNote" class="admin-validation"></span>
+        </div>
+
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+            <button type="submit" name="SubmitAction" value="draft" class="admin-btn-secondary">Taslak Olarak Güncelle</button>
+            <button type="submit" name="SubmitAction" value="send" class="admin-btn">Onaya Gönder</button>
+
+            @if (User.IsInRole("Admin"))
+            {
+                <button type="submit" name="SubmitAction" value="approve" class="admin-btn">Onayla ve Yayınla</button>
+            }
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

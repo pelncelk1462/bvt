@@ -1,0 +1,54 @@
+﻿@page
+@model bvtwebsite.Pages.Admin.Gallery.IndexModel
+@attribute [Microsoft.AspNetCore.Authorization.Authorize(Roles = "Admin")]
+
+@{
+    ViewData["Title"] = "Galeri";
+}
+
+<div class="admin-card">
+    <div class="admin-page-header">
+        <h1>Galeri</h1>
+        <a asp-page="Create" class="admin-btn">Yeni Fotoğraf Ekle</a>
+    </div>
+
+    @if (!Model.GalleryItems.Any())
+    {
+        <div class="admin-empty">
+            Henüz hiç galeri öğesi eklenmemiş.
+        </div>
+    }
+    else
+    {
+        <table class="admin-table">
+            <thead>
+                <tr>
+                    <th>Başlık</th>
+                    <th>Görsel</th>
+                    <th>Durum</th>
+                    <th>Tarih</th>
+                    <th>İşlemler</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.GalleryItems)
+                {
+                    <tr>
+                        <td>@item.Title</td>
+                        <td>
+                            <img src="@item.ImagePath" alt="@item.Title" style="width:100px; height:70px; object-fit:cover; border-radius:10px;" />
+                        </td>
+                        <td>@(item.IsPublished ? "Yayında" : "Taslak")</td>
+                        <td>@item.CreatedAt.ToString("dd.MM.yyyy HH:mm")</td>
+                        <td>
+                            <div class="admin-actions">
+                                <a asp-page="Edit" asp-route-id="@item.Id" class="admin-link">Düzenle</a>
+                                <a asp-page="Delete" asp-route-id="@item.Id" class="admin-link-danger">Sil</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>

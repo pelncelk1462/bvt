@@ -1,0 +1,39 @@
+﻿@page "{id:int}"
+@model bvtwebsite.Pages.Admin.Approvals.DetailModel
+@attribute [Microsoft.AspNetCore.Authorization.Authorize(Roles = "Admin")]
+
+@{
+    ViewData["Title"] = "İçerik İncele";
+}
+
+<div class="admin-card">
+
+    <h2>@Model.Event.Title</h2>
+
+    <p><strong>Tarih:</strong> @Model.Event.StartDate</p>
+    <p><strong>Konum:</strong> @Model.Event.LocationName</p>
+
+    @if (!string.IsNullOrWhiteSpace(Model.Event.ImagePath))
+    {
+        <img src="@Model.Event.ImagePath" style="max-width:400px;border-radius:12px;" />
+    }
+
+    <p>@Model.Event.Description</p>
+
+    <hr />
+
+    <form method="post">
+        <input type="hidden" asp-for="Event.Id" />
+
+        <div class="admin-form-group">
+            <label>Admin Notu</label>
+            <textarea asp-for="Event.AdminNote" class="admin-textarea"></textarea>
+        </div>
+
+        <div style="display:flex; gap:10px;">
+            <button asp-page-handler="Approve" class="admin-btn">Onayla</button>
+            <button asp-page-handler="Reject" class="admin-btn-secondary">Reddet</button>
+        </div>
+    </form>
+
+</div>

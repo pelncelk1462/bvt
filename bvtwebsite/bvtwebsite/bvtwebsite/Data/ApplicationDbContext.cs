@@ -13,5 +13,7 @@ namespace bvtwebsite.Data
         }
 
         public DbSet<Announcement> Announcements { get; set; }
+        public DbSet<Event> Events { get; set; }
+        public DbSet<GalleryItem> GalleryItems { get; set; }
     }
 }

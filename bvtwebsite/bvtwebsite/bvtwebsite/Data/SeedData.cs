@@ -40,6 +40,42 @@ namespace bvtwebsite.Data
                     await userManager.AddToRoleAsync(adminUser, "Admin");
                 }
             }
+            else
+            {
+                if (!await userManager.IsInRoleAsync(adminUser, "Admin"))
+                {
+                    await userManager.AddToRoleAsync(adminUser, "Admin");
+                }
+            }
+
+            var editorEmail = "editor@banuvoleybol.com";
+            var editorPassword = "Editor123!";
+
+            var editorUser = await userManager.FindByEmailAsync(editorEmail);
+
+            if (editorUser == null)
+            {
+                editorUser = new IdentityUser
+                {
+                    UserName = editorEmail,
+                    Email = editorEmail,
+                    EmailConfirmed = true
+                };
+
+                var result = await userManager.CreateAsync(editorUser, editorPassword);
+
+                if (result.Succeeded)
+                {
+                    await userManager.AddToRoleAsync(editorUser, "Editor");
+                }
+            }
+            else
+            {
+                if (!await userManager.IsInRoleAsync(editorUser, "Editor"))
+                {
+                    await userManager.AddToRoleAsync(editorUser, "Editor");
+                }
+            }
         }
     }
 }

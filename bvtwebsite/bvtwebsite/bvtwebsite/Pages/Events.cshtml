@@ -1,0 +1,54 @@
+﻿@page
+@model bvtwebsite.Pages.EventsModel
+
+@{
+    ViewData["Title"] = "Etkinlikler";
+}
+
+<section style="padding:40px;">
+    <h1>Etkinlikler</h1>
+
+    @if (!Model.Events.Any())
+    {
+        <p>Henüz yayınlanmış etkinlik yok.</p>
+    }
+    else
+    {
+        <div style="display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:24px;">
+            @foreach (var item in Model.Events)
+            {
+                <div style="background:#fff; border:1px solid #e5e7eb; border-radius:18px; overflow:hidden; box-shadow:0 10px 24px rgba(0,0,0,.06);">
+                    @if (!string.IsNullOrWhiteSpace(item.ImagePath))
+                    {
+                        <img src="@item.ImagePath" alt="@item.Title" style="width:100%; height:220px; object-fit:cover;" />
+                    }
+
+                    <div style="padding:18px;">
+                        <div style="font-size:14px; color:#64748b; margin-bottom:8px;">
+                            @item.StartDate.ToString("dd.MM.yyyy HH:mm")
+                        </div>
+
+                        <h3 style="margin:0 0 10px 0;">@item.Title</h3>
+
+                        @if (!string.IsNullOrWhiteSpace(item.Summary))
+                        {
+                            <p style="color:#475569;">@item.Summary</p>
+                        }
+
+                        @if (!string.IsNullOrWhiteSpace(item.LocationName))
+                        {
+                            <p style="margin-bottom:16px;">
+                                <strong>Konum:</strong> @item.LocationName
+                            </p>
+                        }
+
+                        <a href="/etkinlik/@item.Slug"
+                           style="display:inline-block; padding:10px 16px; border-radius:10px; background:#0f172a; color:#fff; text-decoration:none;">
+                            Detayları Gör
+                        </a>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+</section>

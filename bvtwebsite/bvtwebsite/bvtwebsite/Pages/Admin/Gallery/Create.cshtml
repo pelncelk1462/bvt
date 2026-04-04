@@ -1,0 +1,47 @@
+﻿@page
+@model bvtwebsite.Pages.Admin.Gallery.CreateModel
+@attribute [Microsoft.AspNetCore.Authorization.Authorize(Roles = "Admin")]
+
+@{
+    ViewData["Title"] = "Yeni Fotoğraf";
+}
+
+<div class="admin-card">
+    <div class="admin-page-header">
+        <h1>Yeni Fotoğraf Ekle</h1>
+        <a asp-page="Index" class="admin-btn-secondary">Listeye Dön</a>
+    </div>
+
+    <form method="post" class="admin-form">
+        <div class="admin-form-group">
+            <label asp-for="GalleryItem.Title"></label>
+            <input asp-for="GalleryItem.Title" class="admin-input" />
+            <span asp-validation-for="GalleryItem.Title" class="admin-validation"></span>
+        </div>
+
+        <div class="admin-form-group">
+            <label asp-for="GalleryItem.Description"></label>
+            <textarea asp-for="GalleryItem.Description" rows="5" class="admin-textarea"></textarea>
+            <span asp-validation-for="GalleryItem.Description" class="admin-validation"></span>
+        </div>
+
+        <div class="admin-form-group">
+            <label asp-for="GalleryItem.ImagePath"></label>
+            <input asp-for="GalleryItem.ImagePath" class="admin-input" />
+            <span asp-validation-for="GalleryItem.ImagePath" class="admin-validation"></span>
+        </div>
+
+        <div class="admin-checkbox-row">
+            <input asp-for="GalleryItem.IsPublished" />
+            <label asp-for="GalleryItem.IsPublished"></label>
+        </div>
+
+        <div>
+            <button type="submit" class="admin-btn">Kaydet</button>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
